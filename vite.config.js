@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: "./FIT5032-pages",
+  base: "/FIT5032-pages/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
